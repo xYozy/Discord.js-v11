@@ -9,6 +9,7 @@ const express = require('express');
 require('./util/eventLoader')(client);
 const path = require('path');
 const ytdl = require('ytdl-core');
+const fs = require('fs');
 
 //////////////////////////////////////////////////////////////
 
@@ -121,14 +122,6 @@ client.on('error', e => {
 });
 
   client.login(config.token)
-  .then(function() {
-    console.log(`[${moment().format('ss:mm:HH DD-MM-YYYY')}] ${client.user.username} : Token Are Active.`)
-  }, function(err) {
-    console.log(`[${moment().format('ss:mm:HH DD-MM-YYYY')}] ${client.user.username} : Token Error:` + err)
-        setInterval(function() {
-       process.exit(0)
-        }, 20000);
-        })
 
 // Lore Software Systems.
 
