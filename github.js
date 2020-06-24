@@ -6,7 +6,7 @@ const moment = require('moment');
 var Jimp = require('jimp');
 const { Client, Util } = require('discord.js');
 const express = require('express');
-require('./util/eventLoader')(client);
+require('./Util/eventLoader')(client);
 const path = require('path');
 const ytdl = require('ytdl-core');
 const fs = require('fs');
