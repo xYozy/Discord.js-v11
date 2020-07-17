@@ -1,4 +1,4 @@
-title Thunz Graphics
+  title Coded by. Lore Softwares
 echo off
 cls
 :a
