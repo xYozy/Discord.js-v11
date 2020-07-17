@@ -5,4 +5,4 @@ Clean Discord JS Bot Space for VDS/VPS/RDP &amp; Hostings.
 github.js = main.js, server.js, bot.js
 
 ## You Can=
-Delete _config.yml and .gittigore
+Delete _config.yml and .gittigore , stylesheet
