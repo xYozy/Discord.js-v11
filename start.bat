@@ -1,4 +1,4 @@
-  title Coded by. Lore Softwares
+title Coded by. Lore Softwares
 echo off
 cls
 :a
