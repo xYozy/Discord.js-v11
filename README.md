@@ -6,3 +6,5 @@ github.js = main.js, server.js, bot.js
 
 ## You Can=
 Delete .gittigore
+
+### Coded by. Lore Discord Softwares
